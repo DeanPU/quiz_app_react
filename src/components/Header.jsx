@@ -7,6 +7,7 @@ export default function Header() {
       <p>(based on completely random things)</p>
       <nav>
         <Link to="/">Home</Link>
+        <Link to="/quiz">Quiz</Link>
       </nav>
     </>
   );
