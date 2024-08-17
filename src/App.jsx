@@ -5,7 +5,6 @@ import UserForm from "./components/UserForm";
 import Question from "./components/Question";
 import Results from "./components/Results";
 import { UserProvider } from "./components/UserContext";
-import "./style.css";
 
 export default function App() {
   const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
